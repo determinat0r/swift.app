@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		845D9ECE21587F8B0010F714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9ECD21587F8B0010F714 /* AppDelegate.swift */; };
 		845D9ED021587F8B0010F714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9ECF21587F8B0010F714 /* ViewController.swift */; };
-		845D9ED321587F8B0010F714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D9ED121587F8B0010F714 /* Main.storyboard */; };
+		845D9ED321587F8B0010F714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D9ED121587F8B0010F714 /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
 		845D9ED521587F8E0010F714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D9ED421587F8E0010F714 /* Assets.xcassets */; };
 		845D9ED821587F8E0010F714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D9ED621587F8E0010F714 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -90,6 +90,9 @@
 		845D9EC221587F8B0010F714 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					label,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Akiko Lai";
